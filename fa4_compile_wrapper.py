@@ -186,7 +186,6 @@ def _flash_attn_varlen_backward(
         max_seqlen_q=max_seqlen_q,
         max_seqlen_k=max_seqlen_k,
         deterministic=deterministic,
-        dlse=dlse,
     )
 
 
